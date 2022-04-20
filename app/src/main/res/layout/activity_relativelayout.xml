@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativelayoutActivity">
+
+    <!--
+        Gerenciadores de layout
+        Frame -> trabalha com sobreposição de widgets
+        Linear -> trabalha com linhas e/ou colunas
+        Relative -> primeira versão do Constraint
+        Constraint -> trabalha com layouts mais elaborados
+    -->
+
+    <!-- Relative Layout
+        layout_center
+        layout_alignParent
+        layout_alignTop
+        layout_toEndOf | layout_toStarOf
+        layout_below | layout_above
+    -->
+
+    <TextView
+        android:id="@+id/txt_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:text="One" />
+
+    <TextView
+        android:id="@+id/txt_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:layout_below="@id/txt_one"
+        android:layout_centerHorizontal="true"
+        android:text="Two" />
+
+    <TextView
+        android:id="@+id/txt_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:layout_below="@id/txt_two"
+        android:layout_alignParentRight="true"
+        android:text="Three" />
+</RelativeLayout>

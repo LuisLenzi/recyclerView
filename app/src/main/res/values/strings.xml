@@ -1,0 +1,32 @@
+<resources>
+    <!-- Global Resources -->
+    <string name="app_name">Aplicativos Móveis</string>
+    <string name="label_btn_bmi">Calcular\nIMC</string>
+    <string name="label_btn_fuel">Calcular\nCombustível</string>
+
+    <!-- BMI Activity Resources -->
+    <string name="txt_bmi_title">Calculo IMC</string>
+    <string name="txt_bmi_mass">Digite sua Massa</string>
+    <string name="txt_bmi_height">Digite sua Altura</string>
+    <string name="label_bmi_btn_calculate">Calcular IMC</string>
+
+    <!-- BMI Rating -->
+    <string name="txt_bmi_rating_severe_thinness">Magreza Grave</string>
+    <string name="txt_bmi_rating_moderate_thinness">Magreza Moderada</string>
+    <string name="txt_bmi_rating_light_thinness">Magreza Leve</string>
+    <string name="txt_bmi_rating_healthy">Saudável</string>
+    <string name="txt_bmi_rating_overweight">Sobrepeso</string>
+    <string name="txt_bmi_rating_obesity_grade_one">Obesidade Grau I</string>
+    <string name="txt_bmi_rating_obesity_grade_two">Obesidade Grau II</string>
+    <string name="txt_bmi_rating_obesity_grade_three">Obesidade Grau III (mórbida)</string>
+
+    <!-- Fuel Activity Resources-->
+    <string name="txt_fuel_title">Melhor combustível</string>
+    <string name="txt_fuel_gas">Preço da Gasolina</string>
+    <string name="txt_fuel_alcohol">Preço do Alcool</string>
+    <string name="label_fuel_btn_calculate">Ver melhor combustível</string>
+    <string name="txt_fuel_validate_fields">Preencha os dois campos obrigatórios</string>
+    <string name="txt_fuel">Gasolina</string>
+    <string name="txt_alcohol">Alcool</string>
+    <string name="txt_fuel_best_fuel">O melhor combustível é</string>
+</resources>

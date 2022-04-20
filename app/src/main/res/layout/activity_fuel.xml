@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:context=".BmiActivity">
+
+        <TextView
+            android:id="@+id/txt_fuel_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myTextView"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:text="@string/txt_fuel_title" />
+
+        <EditText
+            android:id="@+id/edt_fuel_gas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myEditText"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:hint="@string/txt_fuel_gas"/>
+
+        <EditText
+            android:id="@+id/edt_fuel_alcohol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myEditText"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:hint="@string/txt_fuel_alcohol"/>
+
+        <Button
+            android:id="@+id/btn_fuel_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myTextView"
+            android:text="@string/label_fuel_btn_calculate" />
+
+        <TextView
+            android:id="@+id/txt_best_fuel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            style="@style/myTextView"
+            android:textSize="23sp"/>
+    </LinearLayout>
+</ScrollView>
